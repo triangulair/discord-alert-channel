@@ -3,7 +3,7 @@ require('dotenv').config();
 
 const client = new Client();
 const webhookClient = new WebhookClient({
-  url: ""
+  url: "Webhook URL"
 });
 
 client.on('ready', () => {
