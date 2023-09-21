@@ -12,13 +12,12 @@ client.on('ready', () => {
 });
 
 client.on('message', (msg) => {
-  if (msg.author.id === 'User ID') {
+  if (msg.channel.id === 1111) {
     const message_text_author = msg.content;
     console.log(message_text_author);
     webhookClient.send({
       content: message_text_author,
-      username: 'discord alert bot',
-      avatarURL: '',
+      username: 'discord alert bot'
     });
   }
   
