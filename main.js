@@ -2,7 +2,7 @@ const { Client, WebhookClient } = require('discord.js-selfbot-v13');
 
 const client = new Client();
 const webhookClient = new WebhookClient({
-  url: "replace with the webhook URL"
+  url: "https://discord.com/api/webhooks/1182726746131398846/nlKIXZOEYKuHpK-a9KCPMKyKpYhT9qActCP6R4AYU4XUGAzJBz1bKbFqGK8az5DdQDy_"
 });
 
 client.on('ready', () => {
@@ -11,7 +11,7 @@ client.on('ready', () => {
 });
 
 client.on('message', (msg) => {
-  if (msg.author.id === 'User ID') {
+  if (msg.author.id === '899617601838276608') {
     console.log('toto')
     const message_text_author = msg.content;
     console.log(message_text_author);
@@ -20,7 +20,7 @@ client.on('message', (msg) => {
       username: 'alert bot'
     });
   }
-  
+
 });
 
-client.login('Replace with your discord token');
+client.login('REMOVE');
