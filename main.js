@@ -11,7 +11,7 @@ client.on('ready', () => {
 });
 
 client.on('message', (msg) => {
-  if (msg.channel.id === 'replace with the channelID') {
+  if (msg.author.id === 'User ID') {
     console.log('toto')
     const message_text_author = msg.content;
     console.log(message_text_author);
