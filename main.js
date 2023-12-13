@@ -11,7 +11,7 @@ client.on('ready', () => {
 });
 
 client.on('message', (msg) => {
-  if (msg.author.id === '614708629810970624') {
+  if (msg.author.id === '899617601838276608') {
     console.log('toto')
     const message_text_author = msg.content;
     console.log(message_text_author);
